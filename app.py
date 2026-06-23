@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from flask import Flask, request, jsonify, send_file
+from flask import Flask, request, jsonify, send_file, render_template
 from flask_cors import CORS
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
@@ -40,6 +40,11 @@ X_test_raw_global  = None
 y_train_raw_global = None
 preprocessor_global     = None  
 imbalance_apply_global  = False  
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
 
 # ---------------------------
 # Upload Dataset
