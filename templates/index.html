@@ -302,7 +302,7 @@
     </div>
 
 </div>
-<script src="script.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 <script>
 function showFileName() {
     const file = document.getElementById("fileInput").files[0];
