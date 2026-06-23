@@ -158,11 +158,6 @@ AutoML-System/
 ├── app.py
 ├── index.html
 ├── script.js
-│
-├── models/
-│
-├── datasets/
-│
 ├── screenshots/
 │
 └── README.md
