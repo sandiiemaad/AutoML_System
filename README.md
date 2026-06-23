@@ -333,7 +333,6 @@ This project demonstrates the integration of:
 - Model Evaluation
 - Web-Based ML Systems
 
-making it suitable as a Graduation Project, Research Prototype, or Educational AutoML Platform.
 
 ---
 
@@ -342,7 +341,10 @@ making it suitable as a Graduation Project, Research Prototype, or Educational A
 Developed by:
 
 - Sandy Emad
-- Team Members
+- Rawan Rushdy
+- Karin Zaki
+- Youssef Ahmed
+  
 
 Faculty of Computers and Artificial Intelligence
 Information Systems Department
